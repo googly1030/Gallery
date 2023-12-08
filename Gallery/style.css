@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#image {
+    border-radius: 20px;
+    border-color: aliceblue;
+}
+
+#image h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#image img {
+    width: 500px;
+    height: 400px;
+    margin-left: 5%;
+    padding-top: 40px;
+}
+
+#xbtn {
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border: transparent;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    outline: none;
+    position: fixed;
+    right: 500px;
+    bottom: 780px;
+   
+}
+
+#xbtn:hover {
+    background-color: #e6e6e6;
+}
+
+#divimg img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 254, 254, 0.1);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5%;
+}
+
+#leftButton {
+    position: absolute;
+    left: 420px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #fafafa;
+    font-size: xx-large;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 20px;
+}
+
+#rightButton {
+    position: absolute;
+    right: 420px;
+    top: 50%;
+    font-size: xx-large;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #fafafa;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 20px;
+}
